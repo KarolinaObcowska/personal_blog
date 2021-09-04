@@ -1,0 +1,28 @@
+{
+  "name": "personal_blog",
+  "version": "1.0.0",
+  "description": "personal blog with gatsby and graphql",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarolinaObcowska/personal_blog.git"
+  },
+  "author": "Karolina Obcowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarolinaObcowska/personal_blog/issues"
+  },
+  "homepage": "https://github.com/KarolinaObcowska/personal_blog#readme",
+  "dependencies": {
+    "gatsby": "^3.13.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
