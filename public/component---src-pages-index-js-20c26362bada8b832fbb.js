@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkpersonal_blog=self.webpackChunkpersonal_blog||[]).push([[678],{704:function(e,n,l){l.r(n);var r=l(294);n.default=function(){return r.createElement("div",null,"Hi Frontend Masters!")}}}]);
-//# sourceMappingURL=component---src-pages-index-js-20c26362bada8b832fbb.js.map

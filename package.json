@@ -19,7 +19,9 @@
     "@emotion/core": "^11.0.0",
     "@emotion/styled": "^11.3.0",
     "gatsby": "^2.32.13",
+    "gatsby-link": "^3.13.0",
     "gatsby-plugin-emotion": "^5.4.0",
+    "gatsby-react-router-scroll": "^4.13.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
