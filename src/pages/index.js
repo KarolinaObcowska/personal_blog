@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Hero from '../components/hero';
 import Layout from '../components/layout'
 import usePosts from '../hooks/use-posts';
 import PostPreview from '../components/postPreview';
@@ -7,9 +8,9 @@ import PostPreview from '../components/postPreview';
 const index = () => {
     const posts = usePosts();
     return (
+        <>
+        <Hero />
         <Layout>
-            <h1>Hello</h1>
-            <Link to='/about'>Go to about</Link>
             <h2>Read my blog</h2>
             {
                 posts.map(post => (
@@ -17,6 +18,7 @@ const index = () => {
                 ))
             }
         </Layout>
+        </>
     )
 }
 
