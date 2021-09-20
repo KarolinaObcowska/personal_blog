@@ -22,7 +22,8 @@ const Layout = ({ children }) => {
               html,
               body {
                 margin: 0;
-                color: #555;
+                background-color: #ECECEC;
+                color: #333C4A;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
                   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
                   'Segoe UI Symbol';

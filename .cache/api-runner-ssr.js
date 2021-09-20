@@ -2,6 +2,10 @@ var plugins = [{
       name: 'gatsby-plugin-react-helmet',
       plugin: require('/Users/karolinaobcowska/Desktop/personal_blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-mdx',
+      plugin: require('/Users/karolinaobcowska/Desktop/personal_blog/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      options: {"plugins":[],"defaultLayouts":{"default":"/Users/karolinaobcowska/Desktop/personal_blog/src/components/layout.js"},"extensions":[".mdx"],"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"/Users/karolinaobcowska/Desktop/personal_blog"},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

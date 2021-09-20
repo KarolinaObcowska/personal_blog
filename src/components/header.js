@@ -4,16 +4,16 @@ import { css } from '@emotion/react';
 import { Link } from 'gatsby';
 
 const NavLink = styled(Link)`
-  color: #222;
+  color: #E6AF2E;
   font-size: 1rem;
   font-weight: ${props => props.fontWeight || 'normal'};
   line-height: 1;
   margin: 0 0.5rem 0 0;
-  padding: 0.25rem;
+  padding: 0.5rem;
   text-decoration: none;
 
   &.current-page {
-      border-bottom: 2px solid #222;
+      border-bottom: 1px solid #E6AF2E
   }
 
   &.last-of-type {
@@ -27,13 +27,13 @@ const Header = () => {
     return (
         <header
           css={css`
-            background: #eee;
+            background: #282F44;
             border-bottom: 1px solid #ddd;
             display: flex;
             justify-content: space-between;
             padding: 0.5rem calc((100vw - 550px) /2)
           `}>
-            <NavLink to='/' fontWeight='bold'> Karolina Obcowska </NavLink>
+            <NavLink to='/' fontWeight='bold'> .Karolina Obcowska </NavLink>
             <nav css={css`
               margin-top: 0`}
             >
