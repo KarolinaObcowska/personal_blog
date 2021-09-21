@@ -25,10 +25,10 @@
       ],
       "presets": [
         {
-          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/emotion-babel-preset-css-prop.cjs.js",
+          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": true,
-            "autoLabel": "dev-only",
+            "autoLabel": false,
             "plugins": [],
             "labelFormat": "[local]",
             "cssPropOptimization": true
@@ -74,10 +74,10 @@
       ],
       "presets": [
         {
-          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/emotion-babel-preset-css-prop.cjs.js",
+          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": true,
-            "autoLabel": "dev-only",
+            "autoLabel": false,
             "plugins": [],
             "labelFormat": "[local]",
             "cssPropOptimization": true
@@ -123,10 +123,10 @@
       ],
       "presets": [
         {
-          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/emotion-babel-preset-css-prop.cjs.js",
+          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": true,
-            "autoLabel": "dev-only",
+            "autoLabel": false,
             "plugins": [],
             "labelFormat": "[local]",
             "cssPropOptimization": true
@@ -172,10 +172,10 @@
       ],
       "presets": [
         {
-          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/emotion-babel-preset-css-prop.cjs.js",
+          "name": "/Users/karolinaobcowska/Desktop/personal_blog/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": true,
-            "autoLabel": "dev-only",
+            "autoLabel": false,
             "plugins": [],
             "labelFormat": "[local]",
             "cssPropOptimization": true

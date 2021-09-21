@@ -11,7 +11,7 @@ const index = () => {
       {posts.map((post) => (
         <PostPreview key={post.slug} post={post} />
       ))}
-      <Insta />
+      {/* <Insta /> */}
     </Layout>
   )
 }
