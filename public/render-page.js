@@ -2165,8 +2165,10 @@ var plugins = [{
     "defaultLayouts": {
       "default": "/Users/karolinaobcowska/Desktop/personal_blog/src/components/layout.js"
     },
+    "gatsbyRemarkPlugins": [{
+      "resolve": "gatsby-remark-images"
+    }],
     "extensions": [".mdx"],
-    "gatsbyRemarkPlugins": [],
     "lessBabel": false,
     "remarkPlugins": [],
     "rehypePlugins": [],
