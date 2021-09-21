@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import usePosts from '../hooks/use-posts'
 import PostPreview from '../components/postPreview'
+import Insta from '../components/insta'
 
 const index = () => {
   const posts = usePosts()
@@ -10,6 +11,7 @@ const index = () => {
       {posts.map((post) => (
         <PostPreview key={post.slug} post={post} />
       ))}
+      <Insta />
     </Layout>
   )
 }
